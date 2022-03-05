@@ -50,7 +50,7 @@ function Footer(props) {
         <ul className="ft-legal-list">
           <li><a href="#">Terms &amp; Conditions</a></li>
           <li><a href="#">Privacy Policy</a></li>
-          <li>&copy; 2022</li>
+          <li>&copy; effettoplacebo.com 2022</li>
         </ul>
       </section>
     </footer>

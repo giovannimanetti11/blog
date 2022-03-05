@@ -988,12 +988,23 @@ body.dark .slick-dots li.slick-active {
 .likes, .views {
   font-size: 13px;
   line-height: 13px;
+  display: flex;
+  color: grey;
 }
 
 .likes {
   margin-left: 14px;
+  cursor: pointer;
+}
+
+.likes .active {
+  color: red;
 }
 
 .counts {
   margin-top: 20px;
+}
+
+.f-right {
+  float: right;
 }
