@@ -75,8 +75,7 @@ function PostCard(props) {
         </div>
       </Link>
       <div
-        className="d-flex justify-between items-center"
-        style={{ margin: "0px 10px" }}
+        className="d-flex justify-between items-center post-card-meta"
       >
         <div className="post-card-date">
           <span>{post.date.split("T")[0]}</span>

@@ -379,10 +379,21 @@ a.sliderCard:hover {
   font-size: 15px;
   line-height: 15px;
   margin-top: 20px;
+  text-align: justify;
+}
+
+.post-card-date,
+.slider-card-date {
+  color: gray;
 }
 
 .post-card-excerpt .more-link {
   display: none;
+}
+
+.post-card-meta {
+  margin-top: 15px;
+  margin-left: 5px;
 }
 
 #searchMobile {
@@ -1043,7 +1054,7 @@ body.dark .slick-dots li.slick-active {
 }
 
 .likes {
-  margin-left: 14px;
+  margin-left: 5px;
   cursor: pointer;
 }
 
@@ -1053,6 +1064,7 @@ body.dark .slick-dots li.slick-active {
 
 .counts {
   margin-top: 20px;
+  margin-right: 5px;
 }
 
 .f-right {
