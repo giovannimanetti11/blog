@@ -1,5 +1,6 @@
 import React, {useContext, useEffect} from 'react';
 import AppContext from "../lib/AppContext";
+import Link from "next/link";
 
 function Header(props) {
   const context = useContext(AppContext)
@@ -14,12 +15,16 @@ function Header(props) {
         <div id="logo">
           {
             siteInfos._embedded ?
-              <img src={`${siteInfos._embedded['wp:featuredmedia'][0].source_url}`} />
-              :
-              <>
-                <div className="logotype"></div>
-                <span>Blog</span>
-              </>
+                <Link href="/">
+                  <a>
+                    <img src={`${siteInfos._embedded['wp:featuredmedia'][0].source_url}`} />
+                  </a>
+                </Link>
+                :
+                <>
+                  <div className="logotype"></div>
+                  <span>Blog</span>
+                </>
           }
         </div>
         <div id="menu-right">
