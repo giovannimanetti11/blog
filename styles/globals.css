@@ -312,6 +312,10 @@ a.sliderCard:hover {
   font-size: 26px;
 }
 
+.infinite-scroll-component {
+  overflow: hidden !important;
+}
+
 .search-input {
   border: 2px solid #999999;
   border-radius: 5px;
