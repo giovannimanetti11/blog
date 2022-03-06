@@ -376,6 +376,10 @@ a.sliderCard:hover {
   margin-top: 20px;
 }
 
+.post-card-excerpt .more-link {
+  display: none;
+}
+
 #searchMobile {
   display: none;
   margin-top: 50px;
